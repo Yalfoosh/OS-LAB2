@@ -87,9 +87,10 @@ int main (int argc, char** argv)
     PODACI -> flag[1] = false;
     
     int i = 0, j;
-    for(i = 0; i < 2; ++i)
+    for(; i < 2; ++i)
     {
         j = fork();
+        
         if(j == 0)
             proces(i);
         else if(j != -1)

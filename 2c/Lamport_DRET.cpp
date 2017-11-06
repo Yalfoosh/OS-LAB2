@@ -102,8 +102,9 @@ void *Reserve(void* i)
     
     if(one == -1)
     {
-        cout << "Nije bilo dostupnih stolova!\n";
-        return nullptr;
+        string toPrint = "Nije bilo dostupnih stolova!\nDretva " + to_string(I) + " izlazi...\n";
+        cout << toPrint;
+        pthread_exit(i);
     }
     else
     {
@@ -132,6 +133,8 @@ void *Reserve(void* i)
     
     printState();
     KO(I, izlaz);
+    
+    pthread_exit(i);
 }
 
 int main (int argc, char** argv)
