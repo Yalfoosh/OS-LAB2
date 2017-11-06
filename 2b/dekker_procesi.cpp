@@ -1,5 +1,5 @@
 /* 
- * File:   DekkerPROC.cpp
+ * File:   dekker_procesi.cpp
  * Author: soul
  *
  * Dekkerov algoritam procesima

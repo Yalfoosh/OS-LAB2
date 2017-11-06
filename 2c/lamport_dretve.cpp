@@ -1,5 +1,5 @@
 /* 
- * File:   Lamport_DRET.cpp
+ * File:   lamport_dretve.cpp
  * Author: soul
  *
  * Lamportov algoritam dretvama.

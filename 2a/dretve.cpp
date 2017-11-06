@@ -1,5 +1,5 @@
 /* 
- * File:   N_thr_Mx++.cpp
+ * File:   dretve.cpp
  * Author: soul
  */
 
